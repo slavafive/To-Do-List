@@ -7,7 +7,9 @@
 
 import Foundation
 
-class Item {
+// Encodable classes can only have fields of standard datatypes
+// Codable = Encodable + Decodable
+class Item: Codable {
     var title: String = ""
     var done: Bool = false
 }
