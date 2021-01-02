@@ -20,3 +20,7 @@ The application supports the following functions as well:
 ## Implementation
 
 The app was implemented using UITableViewController. It also supports data persistence by using basic functionality of Core Data Framework for CRUD operations.
+
+## Results
+
+I learned about Core Data concepts, how to perform CRUD operations and how UITableView manages reusable cells
