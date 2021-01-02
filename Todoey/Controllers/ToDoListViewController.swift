@@ -28,6 +28,11 @@ class ToDoListViewController: UITableViewController {
         super.viewDidLoad()
         print(dataFilePath)
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.navigationBar.tintColor = .white
+    }
 
     // MARK: - DataSource
     
